@@ -16,4 +16,11 @@ method 2
 method 3
 <img src="https://github.com/robbdunlap/images/blob/7a414f2cfc3a412e575ef70af32fdf87d9d6423d/uaf.png">
 
+method 4
+![](https://github.com/robbdunlap/images/blob/main/uaf.png)
 
+method 5
+![image](https://github.com/robbdunlap/images/blob/main/uaf.png)
+
+method 6
+<img src="https://github.com/robbdunlap/images/blob/main/uaf.png">
