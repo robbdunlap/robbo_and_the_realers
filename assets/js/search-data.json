@@ -18,7 +18,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "I’m Robb, a mid-career professional increasing my data analytics capability by pursuing an MS in data analytics from GMU. I’m particulary interested in developing methods and tools to improve extraction of information from free-form text and tabular data to enable relationship discovery. The tools and methodologies I’m most interested in are natural language processing, graph databases, ontologies, graph neural networks, and bayesian statistical analysis. . method 1a . method 1b . method 1c . method 2a . method 2b . method 2c . method 3a . method 3b . method 3c . Test with image moved back to blog images folder and using raw=true . Test with converted image name .",
+          "content": "I’m Robb, a mid-career professional increasing my data analytics capability by pursuing an MS in data analytics from GMU. I’m particulary interested in developing methods and tools to improve extraction of information from free-form text and tabular data to enable relationship discovery. The tools and methodologies I’m most interested in are natural language processing, graph databases, ontologies, graph neural networks, and bayesian statistical analysis. . .",
           "url": "https://robbdunlap.github.io/robbo_and_the_realers/about/",
           "relUrl": "/about/",
           "date": ""
