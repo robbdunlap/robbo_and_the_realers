@@ -1,3 +1,9 @@
+---
+layout: page
+title: Adding a Photo to a Fastpages Blog Post
+permalink: 
+---
+
 # Adding a Photo to a Fastpages Blog Post
 
 I was confused by Fastpages' instruction on <a href="https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html#Images-w/Captions">how to add a photo to a post</a>. This is how I do it when writing a post in markdown:
