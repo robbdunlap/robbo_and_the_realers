@@ -1,4 +1,8 @@
-# Switching from Online Class to Hybrid Model
+---
+layout: page
+title: Switching from Online Class to Hybrid Model
+permalink: 
+---
 
 I'm about a third of the way through my MS in Data Analytics. I decided to get my degree through a traditional graduate school program because I wanted to interact with the professors directly and get to know my fellow students. Then, COVID came along just before I started school and all of my classes switched to online. There are some drawbacks to learning online, such as it takes a while to get questions answered instead of just being able to ask the professor directly during class, as well as having very limited relationships with any of my fellow students. School is a good opportunity to increase the number of people you know in your field and thus increase your chance of finding a good job. Also, it's great to be able to work through tough concepts with fellow students when you inevitably hit a roadblock. 
 
