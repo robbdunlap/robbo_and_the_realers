@@ -25,11 +25,18 @@ method 2c
 <img src="https://github.com/robbdunlap/images/blob/main/uaf.png">
 
 method 3a
-![](https://github.com/robbdunlap/images/blob/main/uaf.png?raw=true))
+![](https://github.com/robbdunlap/images/blob/main/uaf.png?raw=true)
 
 method 3b
-![image](https://github.com/robbdunlap/images/blob/main/uaf.png?raw=true))
+![image](https://github.com/robbdunlap/images/blob/main/uaf.png?raw=true)
 
 method 3c
 <img src="https://github.com/robbdunlap/images/blob/main/uaf.png?raw=true)">
+
+Test with image moved back to blog images folder and using raw=true
+![image](https://github.com/robbdunlap/robbo_and_the_realers/blob/master/images/uaf.png?raw=true)
+
+Test with converted image name
+![image](https://raw.githubusercontent.com/robbdunlap/robbo_and_the_realers/master/images/uaf.png)
+
 
