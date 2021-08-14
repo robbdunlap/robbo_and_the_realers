@@ -19,14 +19,12 @@ Markdown style
 ```
 
 <br>
-<br>
 
 HTML style
 ```html
 <img src="https://github.com/robbdunlap/robbo_and_the_realers/blob/master/images/uaf.png?raw=true)">
 ```
 
-<br>
 <br>
 
 Interstingly, if you paste the link to the image in a browser window then it will convert the link slightly when the image displays. You can also use the resultant html address to display the image in a post.
