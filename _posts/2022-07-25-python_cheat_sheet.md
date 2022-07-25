@@ -5,6 +5,7 @@ permalink:
 ---
 
 Format numbers with commas in a print statement
+<br/>
 
     ```python
     num_to_display = 1000000
