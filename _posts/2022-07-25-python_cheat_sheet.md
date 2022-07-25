@@ -7,11 +7,11 @@ permalink:
 Format numbers with commas in a print statement
 <br/>
 
-    ```python
-    num_to_display = 1000000
-    print(f'displaying the number with commas {num_to_display:,}')
-    ```
+```python
+num_to_display = 1000000
+print(f'displaying the number with commas {num_to_display:,}')
+```
 <br/>
-    ```bash
-    >>> 1,000,000
-    ```
+```bash
+>>> 1,000,000
+```
