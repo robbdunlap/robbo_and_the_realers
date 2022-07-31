@@ -4,4 +4,4 @@ title: Links to Useful Programming Related Pages
 permalink: 
 ---
 
-#### [Markdown Cheatsheet](https://kanoki.org/2019/11/12/how-to-use-regex-in-pandas/ "Kanoki Blog")
+#### [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links "adam-p's github repo on markdown")
