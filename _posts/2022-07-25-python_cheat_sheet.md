@@ -21,5 +21,4 @@ print(f'displaying the number with commas {num_to_display:.2%}')
 >>> 45.45%
 ```
 
-#### Use regex in Pandas
-https://kanoki.org/2019/11/12/how-to-use-regex-in-pandas/
+#### [Use regex in Pandas](https://kanoki.org/2019/11/12/how-to-use-regex-in-pandas/ "Kanoki Blog")
