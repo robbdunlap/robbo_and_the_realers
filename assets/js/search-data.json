@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Neural Net Terminology",
+            "content": "Neural Net Terminology . . Epoch - a term to indicate progress through the process of training a neural net. An epoch is an iteration through the complete training data (i.e., every single training file has been processed through the model). . Step - like epoch, this is a term to indicate progress through the process of training a neural net. A step is generally an iteration through a defined subset of the training data. The training data is generally divided into batches because the memory required to process the complete training dataset is larger than available to the computer. .",
+            "url": "https://robbdunlap.github.io/robbo_and_the_realers/2022/08/06/nn_terminology.html",
+            "relUrl": "/2022/08/06/nn_terminology.html",
+            "date": " • Aug 6, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Links to Useful Programming Related Pages",
             "content": "Markdown Cheatsheet .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2022/07/31/useful_links.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "Links to Bikepacking Pages",
             "content": "GAP Official Site - also includes the C&amp;O canal portion to DC . Bikepacking.com’s Eastern Divide Trail Map . The C&amp;O connects to the Eastern Divide Trail and would make a good entry for exploring the Northeast including the ability to tag on the Lake Champlain circle. .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2022/07/31/bikepacking_links.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "Cheatsheet for Simple Things in Python",
             "content": "Format numbers with commas in a print statement . num_to_display = 1000000 print(f&#39;displaying the number with commas {num_to_display:,}&#39;) &gt;&gt;&gt; 1,000,000 . . Format numbers as percentage in a print statement . num_to_display = 10/22 print(f&#39;displaying the number with commas {num_to_display:.2%}&#39;) &gt;&gt;&gt; 45.45% . Use regex in Pandas - no sense in duplicating the excellent material on this blog, just go see the original source material .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2022/07/25/python_cheat_sheet.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "Running the Fastai Course on my Local Machine",
             "content": "I was working through the first few chapters of the Fast.ai Fastbook course using the recommended free tier on paperspace. It worked well well except it was usually about 5-10 minutes before a virtual machine was available and I frequently got dropped 30-60 minutes after getting access. It wasn’t a big deal but it usually meant a 10-15 min pause before I could get back to work. The course recommends using preconfigured PAAS solutions instead running locally because of the difficulty setting up your environment, which can be a real pain. Alas, curiosity got the best of me, I really wanted to try to run the fastai package on my local machine. . I have an Intel 7th gen Core I5 with 32 GB of memory, a 1 TB SSD, and an Nvidia GTX1060 GPU with 3 GB of memory. Not a stellar machine but good enough to support my learning path. I read a number of articles and posts for configuring my Anaconda environment to run fastai locally. The best post was one I found was on the fast.ai forums by heraldb. The solution worked perfectly for me. The essense of the post is: . 1 - Make sure your Conda is up-to-date . $ conda update -n base conda . 2 - Create a new Conda environment (environments tab of Anaconda -&gt; click on the “create” icon at the bottom of the page) . 3 - Open a terminal in your Anaconda environment - this SO post has a good description if this is new to you . 3 - Install the appropriate packages in this order . $ conda install -c fastai -c pytorch fastai $ conda install -c fastai fastbook . This worked perfectly for me. My machine is about half as fast as the VM I was using on Paperspace. We’ll see if that’s acceptable later on as the model building process gets more resource intensive. .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2021/08/21/fastai-course-on-local-computer.html",
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "Adding a Photo to a Fastpages Blog Post",
             "content": "I was confused by Fastpages’ instruction on how to add a photo to a post. This is how I do it when writing a post in markdown: . Add the image to the “/images/” folder in your fastpages blog directory and push the file to GitHub (note - don’t put the image in the “/copies_from_nb/” subfolder within the “/images/” folder) | Navigate to the blog images folder on GitHub and open the image | Right-click on the image and select “copy image address” | Insert the image address into the blog post using either markdown or html syntax: | Markdown style . ![image](https://github.com/robbdunlap/robbo_and_the_realers/blob/master/images/uaf.png?raw=true) . . HTML style . &lt;img src=&quot;https://github.com/robbdunlap/robbo_and_the_realers/blob/master/images/uaf.png?raw=true)&quot;&gt; . . Interstingly, if you paste the link to the image in a browser window then it will convert the link slightly when the image displays. You can also use the resultant html address to display the image in a post. .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2021/08/14/adding-images-to-fastpages-blog-posts.html",
@@ -56,7 +67,7 @@
     
   
     
-        ,"post5": {
+        ,"post6": {
             "title": "Switching from Online Class to Hybrid Model",
             "content": "I’m about a third of the way through my MS in Data Analytics. I decided to get my degree through a traditional graduate school program because I wanted to interact with the professors directly and get to know my fellow students. Then, COVID came along just before I started school and all of my classes switched to online. There are some drawbacks to learning online, such as it takes a while to get questions answered instead of just being able to ask the professor directly during class, as well as having very limited relationships with any of my fellow students. School is a good opportunity to increase the number of people you know in your field and thus increase your chance of finding a good job. Also, it’s great to be able to work through tough concepts with fellow students when you inevitably hit a roadblock. . Even though there are drawbacks to online classes, I’ve come to really enjoy that format. Some of my classes have live lectures that allows some interaction with the professor. I also really enjoy having the comforts of home while in class. If the material is dull or class is dragging I don’t feel bad looking up additional information or working on my homework during class. I could do this in an in-person class but I feel an obligation to give my full attention to the professor in classroom lectures. Plus, online I can attend class while wearing my PJs - not a bad deal. . I don’t feel like I’ve lost out this last year by doing my coursework online. For the most part, the lectures have been more of a roadmap of what I need to go out and learn for that week. The professor presents material and then I go do the suggested reading, start the homework, and find additonal information from other resources for areas I having difficulty with. I leverage the heck out of YouTube, Kahn Academy, StackOverflow, and Medium as well as other random sites I discover through searching. . This fall I’ll actually have my first in-person class. That’ll be a good opportunity to really see which format I prefer now. .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2021/08/13/return-to-inperson-school.html",
