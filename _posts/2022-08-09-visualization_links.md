@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Neural Net Terminology
+title: Visualization Related Links
 permalink: 
 ---
 
