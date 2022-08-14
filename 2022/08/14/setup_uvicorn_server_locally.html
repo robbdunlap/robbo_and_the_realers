@@ -96,11 +96,11 @@ window.onload = wrap_img;
 </code></pre></div></div>
 
 <p>This defaults to serving it only on that machine at default location http://127.0.0.1:8000/. To set it up sot that it serves the page at your computer’s IP address launch it with this command instead:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvicorn your_apps_name_here:app <span class="nt">--host</span> 0.0.0.0    
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvicorn your_apps_name_here:app <span class="nt">--reload</span> <span class="nt">--host</span> 0.0.0.0    
 </code></pre></div></div>
 
 <p>You can also change the port by adding the port flag and the desired port, for example:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvicorn your_apps_name_here:app <span class="nt">--host</span> 0.0.0.0 <span class="nt">--port</span> 5000
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvicorn your_apps_name_here:app <span class="nt">--reload</span> <span class="nt">--host</span> 0.0.0.0 <span class="nt">--port</span> 5000
 </code></pre></div></div>
 
 <p>See the <a href="https://www.uvicorn.org/settings/">Uvicorn documentation</a> for more information.</p>
