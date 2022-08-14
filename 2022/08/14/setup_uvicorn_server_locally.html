@@ -103,9 +103,23 @@ window.onload = wrap_img;
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvicorn your_apps_name_here:app <span class="nt">--reload</span> <span class="nt">--host</span> 0.0.0.0 <span class="nt">--port</span> 5000
 </code></pre></div></div>
 
-<p>See the <a href="https://www.uvicorn.org/settings/">Uvicorn documentation</a> for more information.</p>
+<p>Alternatively, you can launch the Uvicorn server programmatically from with your Python code by adding Uvicorn to your import statements and then adding the Uvicorn commands to the <strong>name</strong>=”<strong>main</strong>” statement:</p>
 
-<p><strong>Disclaimer</strong> This assumes that you are behind a firewall that will not allow access to that address/port. If you don’t know this for sure then don’t use this method.
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">uvicorn</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="s">"your_apps_name_here:app"</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s">"0.0.0.0"</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8000</span><span class="p">,</span> <span class="n">log_level</span><span class="o">=</span><span class="s">"info"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Then you launch the app from Python:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python your_apps_name_here.py
+</code></pre></div></div>
+
+<p><br />
+See the <a href="https://www.uvicorn.org/settings/">Uvicorn documentation</a> for more information.</p>
+
+<p><br />
+<strong>Disclaimer</strong> This assumes that you are behind a firewall that will not allow access to that address/port. If you don’t know this for sure then don’t use this method.
+<br />
 <br />
 Thanks to João Pedro’s good article on <a href="https://towardsdatascience.com/building-a-text-preprocessing-microservice-with-fastapi-ca7912050ba">Towards Data Science</a> for getting me started with Uvicorn.</p>
 
