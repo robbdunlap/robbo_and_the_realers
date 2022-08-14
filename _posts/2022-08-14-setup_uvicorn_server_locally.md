@@ -39,4 +39,4 @@ See the [Uvicorn documentation](https://www.uvicorn.org/settings/) for more info
 **Disclaimer** This assumes that you are behind a firewall that will not allow access to that address/port. If you don't know this for sure then don't use this method.
 <br>
 <br>
-Thanks to João Pedro's good article on [Towards Data Science](https://towardsdatascience.com/building-a-text-preprocessing-microservice-with-fastapi-ca7912050ba) for getting me started with Uvicorn.
+Thanks to João Pedro's article on [Towards Data Science](https://towardsdatascience.com/building-a-text-preprocessing-microservice-with-fastapi-ca7912050ba) for getting me started with Uvicorn.
