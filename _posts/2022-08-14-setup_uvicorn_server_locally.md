@@ -22,3 +22,5 @@ uvicorn your_apps_name_here:app --host 0.0.0.0 --port 5000
 See the [Uvicorn documentation](https://www.uvicorn.org/settings/) for more information. 
 
 **Disclaimer** This assumes that you are behind a firewall that will not allow access to that address/port. If you don't know this for sure then don't use this method.
+<br>
+Thanks to João Pedro's good article on [Towards Data Science](https://towardsdatascience.com/building-a-text-preprocessing-microservice-with-fastapi-ca7912050ba) for getting me started with Uvicorn.
