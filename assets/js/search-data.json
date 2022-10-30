@@ -58,7 +58,7 @@
     
         ,"post5": {
             "title": "Cheatsheet for Simple Things in Python",
-            "content": "Format numbers with commas in a print statement . num_to_display = 1000000 print(f&#39;displaying the number with commas {num_to_display:,}&#39;) &gt;&gt;&gt; 1,000,000 . . Format numbers as percentage in a print statement . num_to_display = 10/22 print(f&#39;displaying the number with commas {num_to_display:.2%}&#39;) &gt;&gt;&gt; 45.45% . Use regex in Pandas - no sense in duplicating the excellent material on this blog, just go see the original source material .",
+            "content": "Format numbers with commas in a print statement . num_to_display = 1000000 print(f&#39;displaying the number with commas {num_to_display:,}&#39;) &gt;&gt;&gt; 1,000,000 . . Format floats as percentage in a print statement . num_to_display = 10/22 print(f&#39;displaying the number with commas {num_to_display:.2%}&#39;) &gt;&gt;&gt; 45.45% . . Format floats with fixed number of decimals in a print statement . num_to_display = 10/22 print(f&#39;displaying the number with commas {num_to_display:.2f}&#39;) &gt;&gt;&gt; 0.45 . . Use regex in Pandas - no sense in duplicating the excellent material on this blog, just go see the original source material .",
             "url": "https://robbdunlap.github.io/robbo_and_the_realers/2022/07/25/python_cheat_sheet.html",
             "relUrl": "/2022/07/25/python_cheat_sheet.html",
             "date": " • Jul 25, 2022"
